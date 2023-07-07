@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Layout from "../layout/Layout";
 import SliderPortfolio from "../components/slider-portfolio/SliderPortfolio";
 import HeroSection from "../components/hero-section/HeroSection";
@@ -6,15 +7,11 @@ import TitleSection from "../components/heading/TitleSection";
 import ServiceOne from "../components/services/grid/ServiceOne";
 import ParallaxImage from "../components/Image/ParallaxImage";
 import MoveBox from "../components/move-box/MoveBox";
-import SwiperPagination from "../components/swiper-pagination/SwiperPagination";
-import Testimonial from "../components/testimonial/Testimonial";
 import Accordion, { AccordionItem } from "../components/accordion/Accordion";
 import DsnGrid from "../layout/DsnGrid";
 import TitleCover from "../components/heading/TitleCover";
-import BlogSwiper from "../components/bolg/BlogSwiper";
-import Team from "../components/Team/Team";
+import Image from "next/image";
 import BrandClient from "../components/brand-client/BrandClient";
-
 import NextPage from "../components/next/NextPage";
 import Footer from "../components/footer/Footer";
 import ModalContact from "../components/model-right/ModalContact";
@@ -50,18 +47,87 @@ function Home() {
         className="container section-margin container fill-right-container"
         data-dsn-title="How We Are"
       />
+      {/*<!-- ========== Vision ========== */}
 
-      {/*Start Service*/}
-      <div className="container section-margin" data-dsn-title="Our Services">
+      {/*Start Parallax Img*/}
+      <ParallaxImage
+        alt={""}
+        src={
+          "https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+        height={"80vh"}
+        parallaxFrom={{ scale: 1.3 }}
+        parallax={{ scale: 1 }}
+        overlay={5}
+      />
+      {/*End Parallax Img*/}
+
+      {/*<!-- ========== About Section ========== */}
+      <div className="container section-margin" data-dsn-title="About">
         <TitleSection
-          className="align-items-center text-center"
-          description={""}
-        >
-          Reingenieria <br /> Fiscal
-        </TitleSection>
-        <ServiceOne />
+          className="mb-15"
+          description={"Mas Sobre Nosotros"}
+          defaultSpace={false}
+        />
+        <DsnGrid col={2} colTablet={1}>
+          <div className="box-left">
+            <h2>Vision y Mision </h2>
+          </div>
+          <div className="box-right">
+            <p className="max-w570 dsn-up mb-15 ">
+              Nuestra visión es ser una empresa de servicios fiscales reconocida
+              por nuestras excelencia en el servicio y el trabajo en conjunto
+              con nuestros clientes , brindando soluciones innovadoras y
+              confiables que impulsen el éxito financiero de nuestros clientes y
+              les permitan alcanzar sus metas empresariales de manera
+              estratégica y cumpliendo con las normativas legales
+            </p>
+
+            <p className="max-w570 dsn-up">
+              Nuestra misión es proporcionar servicios fiscales integrales y de
+              alta calidad, ofreciendo asesoramiento experto, cumplimiento
+              normativo y soluciones personalizadas a nuestros clientes.
+            </p>
+          </div>
+        </DsnGrid>
       </div>
-      {/*End Service*/}
+      {/*<!-- ========== End About Section ========== */}
+
+      {/*<!-- ========== About section ========== */}
+      <div
+        className="p-relative section-margin"
+        data-dsn-title="BUSINESS CONSULTING"
+      >
+        <DsnGrid className="container" col={2} colTablet={1}>
+          <div className="p-relative box-left order-md-2">
+            <TitleCover>Fislosofia</TitleCover>
+            <TitleSection className="mb-30" defaultSpace={false}>
+              Nuestra Filosofia
+            </TitleSection>
+            <p className="max-w570 dsn-up mb-10 border-top pt-30">
+              En NFT CONSULTING creemos fielmente en la ayuda mutua y la
+              colaboración; es por eso que centramos nuestros ideales un
+              pensamiento de beneficio mutuo y el intercambio de conocimientos
+              para el crecimiento, confiamos plenamente en valores como la
+              cortesía y el respeto para una mejora continua en el enfoque de
+              comunicación con nuestros clientes y llegar a un servicio
+              excepcional de crecimiento conjunto.
+            </p>
+          </div>
+          <div className="p-relative box-right order-md-1">
+            <div className="box-im h-100 ">
+              <Image
+                className="cover-bg-img "
+                src="https://images.pexels.com/photos/4098369/pexels-photo-4098369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                fill
+                sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw"
+              />
+            </div>
+          </div>
+        </DsnGrid>
+      </div>
+      {/*<!-- ========== End About section ========== */}
 
       {/*Start Box Info Move Content*/}
       <div className="p-relative section-margin">
@@ -80,17 +146,11 @@ function Home() {
           </TitleSection>
 
           <p className="mb-10">
-            Somos estudiosos de la ley,con apego estricto a la Constitución
-            Política de los Estados Unidos Mexicanos y todas aquellas leyes que
-            rigen nuestra vida cotidiana, nuestro actuar como individuos y como
-            empresas, nos preciamos de proteger los derechos de los ciudadanos
-            ante el comportamiento de las autoridades, personas o instituciones.
-          </p>
-          <p className="mb-10">
-            Brindar asesoría especializada a nuestros clientes, integridad,
-            patrimonio, así como salvaguardar sus garantías individuales,
-            mediante la ejecución de ejercicios corporativos, nuestra obsesión,
-            ser los mejores en ello, en nuestra realidad.
+            Somos un equipo de expertos fiscales comprometidos con el estudio y
+            aplicación de estrategias para el aprovechamiento de impuestos en
+            base al CFF. Nos enorgullece proteger la integridad de nuestros
+            clientes frente a las acciones de autoridades, personas e
+            instituciones
           </p>
 
           <p className={`sm-p mt-15 theme-color`}>Contactanos.</p>
@@ -98,33 +158,17 @@ function Home() {
       </div>
       {/*End Box Info Move Content*/}
 
-      {/*Start testimonial Section*/}
-      <div className="section-margin" data-dsn-title="Testimonials">
-        <Testimonial
-          className="container section-margin"
-          title="Vision, Mision y Filosofia"
-          skin={["testimonials-half"]}
-          backgroundColor={"background-section"}
-          desktop={{ slidesPerView: 2 }}
-          mobile={{ slidesPerView: 1 }}
-          speed={1000}
-          grabCursor
-          loop
-          loopedSlides={2}
-          parallax
-          parallaxImage={{ "data-swiper-parallax-scale": 0.7 }}
-          parallaxContent={{
-            "data-swiper-parallax-opacity": 0,
-            "data-swiper-parallax": "30%",
-          }}
+      {/*Start Service*/}
+      <div className="container section-margin" data-dsn-title="Our Services">
+        <TitleSection
+          className="align-items-center text-center"
+          description={""}
         >
-          <SwiperPagination
-            className={`justify-content-between dsn-container mt-30`}
-          />
-        </Testimonial>
+          Reingenieria <br /> Fiscal
+        </TitleSection>
+        <ServiceOne />
       </div>
-
-      {/*End testimonial Section*/}
+      {/*End Service*/}
 
       {/*Start box vertical Section*/}
       <section
@@ -215,19 +259,6 @@ function Home() {
         </DsnGrid>
       </section>
       {/*End box vertical Section*/}
-
-      {/*========== team Section ========== */}
-      <section className="container section-margin " data-dsn-title="Our Team">
-        <TitleSection
-          className={` align-items-center text-center`}
-          description={"Nuestro Equipo"}
-        >
-          A Tus Servicios
-        </TitleSection>
-
-        <Team col={3} colTablet={2} />
-      </section>
-      {/*========== End team Section ========== */}
 
       {/*========== End brand-client Section ==========*/}
       <section

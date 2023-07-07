@@ -7,7 +7,7 @@ const ServiceOne = ({ className }) => {
   return (
     <Service.grid
       col={3}
-      colTablet={2}
+      colTablet={3}
       colMobile={1}
       colGap={25}
       masonry

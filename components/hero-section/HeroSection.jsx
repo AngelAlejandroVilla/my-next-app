@@ -8,7 +8,12 @@ import FadeUpTrigger from "../../animation/FadeUpTrigger";
 
 const HeroContent = {
   title: "Sobre Nosotros",
-  subtitle: `Somos una firma mexicana integrada por profesionales y expertos en planeacion de negocios`,
+  subtitle: `Somos una empresa de servicios
+  fiscales, dedicada a brindar soluciones especializadas a
+  empresas y particulares desde 1998. Nuestro equipo
+  altamente capacitado de expertos en contabilidad y asesoría
+  fiscal se compromete a ofrecer un asesoramiento de calidad,
+  adaptado a las necesidades individuales de cada cliente`,
   description: `Ofrecemos soluciones integrales para empresas mediante estrategias financieras, fiscales y juridicas que sobresalen por su innovacion y vanguardia, minuciosamente definidas y estructuradas dentro del marco legal vigente`,
   authorTitle: "NFT CONSULTING",
   authorJob: "FISCALITAS",
@@ -16,10 +21,7 @@ const HeroContent = {
   experienceDescription: `Trabajando para un mejor servicio`,
   heroImage:
     "https://images.pexels.com/photos/8112121/pexels-photo-8112121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  awards: [
-    { number: 37, description: `Business <br/> partner` },
-    { number: 19, description: `SUTISFIED <br/> CUSTOMERS` },
-  ],
+  awards: [],
 };
 
 function HeroSection({ className, ...restProps }) {
