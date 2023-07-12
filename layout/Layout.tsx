@@ -1,10 +1,8 @@
 import { ElementType, HTMLProps, useEffect, useRef } from "react";
 import { dsnCN, scrollTop } from "../hooks/helper";
 import dataAttr from "../hooks/dataAttr";
-import SocialOne from "../components/social/SocialOne";
 import MainScrollBar from "./MainScrollBar";
 import ModalRight from "../components/model-right/ModalRight.jsx";
-
 import { useSelector } from "react-redux";
 import { RootState } from "../features/store";
 import { ScrollbarOptions } from "smooth-scrollbar/interfaces";
@@ -95,7 +93,6 @@ function Layout({
       </div>
 
       <div className="line-border-style w-100 h-100" />
-      <SocialOne />
       <div className="dsn-paginate-right-page" ref={paginateRight} />
       {modelRight && (
         <ModalRight {...modelRight.propsModal}>

@@ -27,7 +27,7 @@ function Home() {
     <Layout
       modelRight={{
         children: <ModalContact />,
-        propsModal: { textBtn: "Contactanos" },
+        propsModal: { textBtn: "Contáctanos" },
       }}
     >
       <Head>
@@ -71,7 +71,7 @@ function Home() {
         />
         <DsnGrid col={2} colTablet={1}>
           <div className="box-left">
-            <h2>Vision y Mision </h2>
+            <h2>Visión y Misión </h2>
           </div>
           <div className="box-right">
             <p className="max-w570 dsn-up mb-15 ">
@@ -100,7 +100,7 @@ function Home() {
       >
         <DsnGrid className="container" col={2} colTablet={1}>
           <div className="p-relative box-left order-md-2">
-            <TitleCover>Fislosofia</TitleCover>
+            <TitleCover>Fislosofía</TitleCover>
             <TitleSection className="mb-30" defaultSpace={false}>
               Nuestra Filosofia
             </TitleSection>
@@ -153,7 +153,7 @@ function Home() {
             instituciones
           </p>
 
-          <p className={`sm-p mt-15 theme-color`}>Contactanos.</p>
+          <p className={`sm-p mt-15 theme-color`}>Contáctanos.</p>
         </MoveBox>
       </div>
       {/*End Box Info Move Content*/}
@@ -164,7 +164,7 @@ function Home() {
           className="align-items-center text-center"
           description={""}
         >
-          Reingenieria <br /> Fiscal
+          Reingeniería <br /> Fiscal
         </TitleSection>
         <ServiceOne />
       </div>
@@ -270,7 +270,7 @@ function Home() {
           description={"Nuestros Clientes"}
         >
           Su Exito <br />
-          Nuestra Reputacion
+          Nuestra Reputación
         </TitleSection>
 
         <BrandClient
