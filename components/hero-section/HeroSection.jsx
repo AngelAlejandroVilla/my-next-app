@@ -49,18 +49,49 @@ function HeroSection({ className, ...restProps }) {
           <FadeUpTrigger>
             {(ref) => (
               <>
-                <h6
-                  className="title-block border-bottom pb-30 mb-30  text-center"
-                  ref={ref}
-                >
+                <h6 className="title-block border-bottom pb-30 mb-30" ref={ref}>
                   {HeroContent.subtitle}
                 </h6>
                 <p
-                  className="mb-30 text-center"
+                  className="mb-30"
                   ref={ref}
                   style={{ maxWidth: 570 }}
                   dangerouslySetInnerHTML={{ __html: HeroContent.description }}
                 />
+                <h5
+                  className="sm-title-block line-shape line-shape-after mb-10"
+                  ref={ref}
+                >
+                  {HeroContent.authorTitle}
+                </h5>
+                <span className="sub-heading line-bg-left" ref={ref}>
+                  {HeroContent.authorJob}
+                </span>
+                <DsnGrid
+                  className="box-awards pt-30"
+                  col={2}
+                  colTablet={2}
+                  colGap={15}
+                  rowGap={15}
+                >
+                  {HeroContent.awards.map((item, index) => (
+                    <div
+                      className="box-awards_item has-border "
+                      key={index}
+                      ref={ref}
+                    >
+                      <div className={`box-awards_inner background-section`}>
+                        <span className="has-animate-number title">
+                          {item.number}
+                        </span>
+                        <h5
+                          className="sm-title-block"
+                          dangerouslySetInnerHTML={{ __html: item.description }}
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </DsnGrid>
               </>
             )}
           </FadeUpTrigger>
