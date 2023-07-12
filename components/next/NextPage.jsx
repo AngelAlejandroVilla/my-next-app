@@ -3,9 +3,9 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-  title: "Requieres mas informacion \no quieres hacernos una pregunta?",
+  title: "Requieres mas información \no quieres hacernos una pregunta?",
   subtitle: `Informate Mas`,
-  buttonText: "Contactanos",
+  buttonText: "Contáctanos",
 };
 
 function NextPage({ className, ...restProps }) {

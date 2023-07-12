@@ -20,7 +20,7 @@ function About() {
   return (
     <Layout>
       <Head>
-        <title>Contactanos | NFT CONSULTING</title>
+        <title>Contáctanos | NFT CONSULTING</title>
       </Head>
       {/*========== Header Normal ========== */}
       <HeaderNormal className="text-center">

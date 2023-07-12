@@ -6,7 +6,7 @@ function InfoBox({ className }) {
     <div className={dsnCN("box-info-contact", className)}>
       <ul>
         <li>
-          <h5 className="title-block mb-15">Contacto</h5>
+          <h5 className="title-block mb-15">Contácto</h5>
           <p className="text-p ">+52 322 275 8229</p>
           <div className="over-hidden mt-5">
             <a

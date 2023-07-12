@@ -28,7 +28,7 @@ const EremiaMenu = ({ hamburger }) => {
 
   return (
     <Navbar hamburger={hamburger}>
-      <Navbar.Brand href={"/"} transitionPage={{ title: "Eremia" }}>
+      <Navbar.Brand href={"/"} transitionPage={{ title: "NFT CONSULTING" }}>
         <Logo width="75px" height="auto" />
       </Navbar.Brand>
 

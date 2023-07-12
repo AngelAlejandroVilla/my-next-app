@@ -53,7 +53,7 @@ function ContactForm({ className }) {
                 id="form_name"
                 type="text"
                 name="name"
-                placeholder="Type your name"
+                placeholder="Ingresa tu nombre"
                 required="required"
                 data-error="name is required."
               />
@@ -67,7 +67,7 @@ function ContactForm({ className }) {
                 id="form_email"
                 type="email"
                 name="email"
-                placeholder="Type your Email Address"
+                placeholder="Ingresa email"
                 required="required"
                 data-error="Valid email is required."
               />
@@ -83,7 +83,7 @@ function ContactForm({ className }) {
                 className="form-control"
                 name="message"
                 rows={4}
-                placeholder="Tell us about you and the world"
+                placeholder="Escribe tu mensaje aqui."
                 required="required"
                 data-error="Please,leave us a message."
               />

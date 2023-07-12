@@ -24,12 +24,7 @@ function Home() {
   };
 
   return (
-    <Layout
-      modelRight={{
-        children: <ModalContact />,
-        propsModal: { textBtn: "Contáctanos" },
-      }}
-    >
+    <Layout>
       <Head>
         <title>Incio | NFT CONSULTING</title>
       </Head>
@@ -45,7 +40,7 @@ function Home() {
       />
       <HeroSection
         className="container section-margin container fill-right-container"
-        data-dsn-title="How We Are"
+        data-dsn-title="Sobre Nosotros"
       />
       {/*<!-- ========== Vision ========== */}
 
@@ -63,7 +58,10 @@ function Home() {
       {/*End Parallax Img*/}
 
       {/*<!-- ========== About Section ========== */}
-      <div className="container section-margin" data-dsn-title="About">
+      <div
+        className="container section-margin"
+        data-dsn-title="Visión y Misíon"
+      >
         <TitleSection
           className="mb-15"
           description={"Mas Sobre Nosotros"}
@@ -94,15 +92,12 @@ function Home() {
       {/*<!-- ========== End About Section ========== */}
 
       {/*<!-- ========== About section ========== */}
-      <div
-        className="p-relative section-margin"
-        data-dsn-title="BUSINESS CONSULTING"
-      >
+      <div className="p-relative section-margin">
         <DsnGrid className="container" col={2} colTablet={1}>
           <div className="p-relative box-left order-md-2">
             <TitleCover>Fislosofía</TitleCover>
             <TitleSection className="mb-30" defaultSpace={false}>
-              Nuestra Filosofia
+              Nuestra Filosofía
             </TitleSection>
             <p className="max-w570 dsn-up mb-10 border-top pt-30">
               En NFT CONSULTING creemos fielmente en la ayuda mutua y la
@@ -139,7 +134,7 @@ function Home() {
         <MoveBox tablet={false}>
           <TitleSection
             className={`align-items-start mb-30`}
-            description={"La mejor atencion a nuestros clientes"}
+            description={"La mejor atención a nuestros clientes"}
             defaultSpace={false}
           >
             Nuestros Servicios
@@ -159,7 +154,10 @@ function Home() {
       {/*End Box Info Move Content*/}
 
       {/*Start Service*/}
-      <div className="container section-margin" data-dsn-title="Our Services">
+      <div
+        className="container section-margin"
+        data-dsn-title="Reingeniería Fiscal"
+      >
         <TitleSection
           className="align-items-center text-center"
           description={""}
@@ -173,7 +171,7 @@ function Home() {
       {/*Start box vertical Section*/}
       <section
         className="box-gallery-vertical container section-margin"
-        data-dsn-title="Our Services"
+        data-dsn-title="Estructura de negocios"
       >
         <DsnGrid
           col={2}
@@ -263,7 +261,7 @@ function Home() {
       {/*========== End brand-client Section ==========*/}
       <section
         className="container section-margin"
-        data-dsn-title="our clients"
+        data-dsn-title="Nuestros Clientes"
       >
         <TitleSection
           className={`align-items-center text-center`}
