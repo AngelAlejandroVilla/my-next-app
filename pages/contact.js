@@ -30,8 +30,8 @@ function About() {
           </span>
         </p>
         <h1 className="title text-uppercase">
-          Compromiso Inquebrantable
-          <br /> Resultados Insuperables
+          Contamos con seis sucursales
+          <br /> por toda la república
         </h1>
       </HeaderNormal>
       {/*========== End Header Normal ==========*/}
