@@ -36,7 +36,7 @@ function NextPage2({ className, ...restProps }) {
               className="mr-15 line-head"
               borderStyle={"border-color-heading-color"}
               borderRadius
-              transitionPage={{ title: "Our Portfolio" }}
+              transitionPage={{ title: "Inicio" }}
             >
               {NextContent.buttonText}
             </Button>

@@ -18,10 +18,12 @@ function MenuContent({ className }) {
       <div className="nav__info">
         <div className="nav-content">
           <h5 className="sm-title-block mb-10">Oficinas</h5>
-          <p>
-            Puerto Vallarta, Jalisco <br /> Medina Ascencio, Zona Hotelera,
-            Versalles
-          </p>
+          <p className="text-p">- Cordoba, Veracruz</p>
+          <p className="text-p">- Cancun, Quintana Roo</p>
+          <p className="text-p">- Puerto Vallarta, Jalisco</p>
+          <p className="text-p">- Hermosillo, sonora</p>
+          <p className="text-p">- Mazatlan, Sinaloa</p>
+          <p className="text-p">- Culiacán, Sinaloa</p>
         </div>
         <div className="nav-content mt-30">
           <h5 className="sm-title-block mb-10">Contact</h5>

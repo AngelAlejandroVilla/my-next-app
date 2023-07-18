@@ -20,7 +20,12 @@ function InfoBox({ className }) {
         </li>
         <li>
           <h5 className="title-block mb-15">Nuestras Oficinas</h5>
-          <p className="text-p">Mexico, Puerto Vallarta, Jalisco</p>
+          <p className="text-p">Cordoba, Veracruz</p>
+          <p className="text-p">Cancun, Quintana Roo</p>
+          <p className="text-p">Puerto Vallarta, Jalisco</p>
+          <p className="text-p">Hermosillo, sonora</p>
+          <p className="text-p">Mazatlan, Sinaloa</p>
+          <p className="text-p">Culiacán, Sinaloa</p>
         </li>
       </ul>
     </div>
