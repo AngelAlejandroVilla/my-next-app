@@ -7,14 +7,14 @@ function InfoBox({ className }) {
       <ul>
         <li>
           <h5 className="title-block mb-15">Contácto</h5>
-          <p className="text-p ">+52 322 275 8229</p>
+          <p className="text-p ">+52 477-219-3116</p>
           <div className="over-hidden mt-5">
             <a
               className="link-hover"
               data-hover-text="info@example.com"
               href="#"
             >
-              Felipe Arias
+              Director General Fernando Aguilar
             </a>
           </div>
         </li>
@@ -23,9 +23,11 @@ function InfoBox({ className }) {
           <p className="text-p">Córdoba, Veracruz</p>
           <p className="text-p">Cancún, Quintana Roo</p>
           <p className="text-p">Puerto Vallarta, Jalisco</p>
-          <p className="text-p">Hermosillo, sonora</p>
+          <p className="text-p">Hermosillo, Sonora</p>
           <p className="text-p">Mazatlán, Sinaloa</p>
           <p className="text-p">Culiacán, Sinaloa</p>
+          <p className="text-p">León, Guanajuato</p>
+          <p className="text-p">Toluca, Estado de México</p>
         </li>
       </ul>
     </div>
