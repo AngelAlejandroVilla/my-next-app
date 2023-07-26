@@ -11,10 +11,10 @@ function InfoBox({ className }) {
           <div className="over-hidden mt-5">
             <a
               className="link-hover"
-              data-hover-text="info@example.com"
+              data-hover-text="Director General"
               href="#"
             >
-              Director General Fernando Aguilar
+              Fernando Aguilar
             </a>
           </div>
         </li>
