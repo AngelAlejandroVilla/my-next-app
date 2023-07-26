@@ -74,11 +74,11 @@ function Home() {
           <div className="box-right">
             <p className="max-w570 dsn-up mb-15 ">
               Nuestra visión es ser una empresa de servicios fiscales reconocida
-              por nuestras excelencia en el servicio y el trabajo en conjunto
-              con nuestros clientes , brindando soluciones innovadoras y
-              confiables que impulsen el éxito financiero de nuestros clientes y
-              les permitan alcanzar sus metas empresariales de manera
-              estratégica y cumpliendo con las normativas legales
+              por nuestra excelencia en el servicio y el trabajo en conjunto con
+              nuestros clientes, brindando soluciones innovadoras y confiables
+              que impulsen el éxito financiero de nuestros clientes y les
+              permitan alcanzar sus metas empresariales de manera estratégica y
+              cumpliendo con las normativas legales
             </p>
 
             <p className="max-w570 dsn-up">

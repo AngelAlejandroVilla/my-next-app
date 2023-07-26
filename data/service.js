@@ -2,7 +2,7 @@ const servicesDetails = [
   {
     title: "Administración de proveedores",
     description:
-      "Confíe en nuestro grupo de expertos para transferir las tareas y obligaciones que su empresa asume frente a sus proveedores, incluyendo lagestión de plazos, pagos, facturación y demás aspectos relacionados",
+      "Confíe en nuestro grupo de expertos para transferir las tareas y obligaciones que su empresa asume frente a sus proveedores, incluyendo la gestión de plazos, pagos, facturación y demás aspectos relacionados",
   },
   {
     title: "Administración de empresas",

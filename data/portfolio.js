@@ -4,7 +4,7 @@ const data = [
     title: "NFT CONSULTING",
     slug: "maybe-speaker",
     category: [],
-    description: "Compromiso Inquebrantable, Resultado Insuperables",
+    description: "Compromiso Inquebrantable, Resultados Insuperables",
     src: "/img/team/15.jpg",
     overlay: 6,
   },

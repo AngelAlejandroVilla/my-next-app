@@ -30,7 +30,7 @@ function BrandClient({ className, ...retsProps }: DsnGridProps) {
           <div className="logo-box" key={$index}>
             <div className="p-relative text-center">
               <Image src={$item?.src} alt={""} width={350} height={54} />
-              <h5 className="text-center">{$item?.text}</h5>
+              <h5 className="text-center text-uppercase">{$item?.text}</h5>
             </div>
           </div>
         ))}
