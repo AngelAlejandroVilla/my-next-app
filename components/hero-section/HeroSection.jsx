@@ -8,7 +8,7 @@ import FadeUpTrigger from "../../animation/FadeUpTrigger";
 
 const HeroContent = {
   title: "Sobre Nosotros",
-  subtitle: `Somos una empresa de servicios
+  subtitle: `Somos una firma de servicios
   fiscales, dedicada a brindar soluciones especializadas a
   empresas y particulares desde 1998. Nuestro equipo
   altamente capacitado de expertos en contabilidad y asesoría
